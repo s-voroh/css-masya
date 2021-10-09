@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    color: rgb(1, 20, 20); 
+    /* font-size: 20;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif; */
+    font: 20 700 'Roboto', sans-serif
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width:300px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 50px rgb(26, 41, 248);
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 700px){
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info p {
+    color: #001b52;
+    margin: 0;
+}
+
+/* .social {
+    float: left;
+    background: #071199;
+    padding: 10px;
+    border: 10px solid rgba(56, 36, 231, 0.856);
+    border-bottom-color: rgb(219, 6, 202);
+    margin: 10px;
+} */
+
+.conteiner{
+    width: 75%; /* ширина от страницы*/
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.list{
+    padding: 0 20px;
+}
+
+.list li {
+    color: brown;
+}
+
+.table{
+    width: 100%;
+}
+
+/* .table td {
+    margin-bottom: 10px;
+} */
+
+.table td:nth-child(2), .table td:nth-child(3){
+    color: brown;
+}
+
+.link-list{
+    list-style: url('https://www.jacobscoffee.uz/globalassets/shared/jacobs_logo.svg?preset=header-logo');
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label{ /* пометка, описание перед полем ввода*/
+    display: block; /* показывать как блок, а не строку*/
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.row > .form-group:first-child{
+    margin-right: 20px;
+}
+
+.btn {
+    color: rgb(253, 253, 253);
+    background: #111;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* .position{
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 200px;
+}
+
+.box{
+    position: fixed;
+    left: 50px;
+    top: 100px;
+    border-radius: 25%;
+    width: 50px;
+    height: 50px;
+    background: lightcoral
+} */
